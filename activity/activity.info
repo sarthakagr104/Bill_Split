@@ -1,0 +1,6 @@
+[Activity]
+name = Bill_Split
+activity_version = 1
+bundle_id = org.sugarlabs.Bill_split
+exec = sugar-activity-web
+icon = activity-icon
