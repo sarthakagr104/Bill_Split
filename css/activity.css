@@ -74,11 +74,6 @@ input {
   display: inline;
 }
 
-#serviceQual {
-  padding: 13px 13px 20px 20px;
-  margin-left: 20px;
-  font-size: 25px;
-}
 
 button {
   text-transform: uppercase;

@@ -6,7 +6,7 @@ define(["sugar-web/activity/activity"], function (activity) {
 		// Initialize the activity.
 		activity.setup();
 		//Calculate Tip
-		function calculateTip() {
+		function bill_split() {
 		  var billAmt = document.getElementById("billamt").value;
 		  var numOfPeople = document.getElementById("peopleamt").value;
 
@@ -41,7 +41,7 @@ define(["sugar-web/activity/activity"], function (activity) {
 
 		//click to call function
 		document.getElementById("calculate").onclick = function() {
-		  calculateTip();
+		  bill_split();
 
 		};
 	});
