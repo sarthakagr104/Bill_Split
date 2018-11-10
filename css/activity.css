@@ -56,15 +56,13 @@ input {
 }
 
 #billamt:focus {
-  background: #fff;
-  border: 3px solid #2980b9;
   outline: none;
 }
 
 #peopleamt {
   width: 60%;
   padding: 5px 5px 8px 8px;
-  margin-left: 20px;
+  margin-left: 30px;
   color: #red;
   background-color: #f7f7f7;
   font-size: 14px;
@@ -78,7 +76,7 @@ input {
 button {
   text-transform: uppercase;
   font-weight: bold;
-  margin: 30px auto;
+  margin: 60px;
   background: #AD133A;
   border-radius: 5px;
   width: 200px;
