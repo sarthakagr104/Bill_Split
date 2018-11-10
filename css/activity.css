@@ -15,23 +15,9 @@ body {
   height: 525px;
   width: 360px;
   margin: 100px auto;
-  background: #f7f7f7;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
-}
-
-h1 {
-  background: #1F030C;
-  color: white;
-  margin: 0;
-  padding: 10px 100px;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: normal;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
 }
 
 p {
@@ -76,7 +62,7 @@ input {
 button {
   text-transform: uppercase;
   font-weight: bold;
-  margin: 60px;
+  margin: 40px;
   background: #AD133A;
   border-radius: 5px;
   width: 200px;
@@ -105,6 +91,7 @@ button:active {
   content: "All will pay";
   font-size: 20px;
   font-weight: bold;
+  margin-left: -70px;
   display: block;
   text-transform: uppercase;
 }
@@ -112,10 +99,12 @@ button:active {
 #totalTip sup {
   font-size: 20px;
   top: -18px;
+  margin-left: -70px;
 }
 
 #totalTip small {
   font-size: 20px;
   font-weight: bold;
   display: block;
+  margin-left: -70px;
 }
